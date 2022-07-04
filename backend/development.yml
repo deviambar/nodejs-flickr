@@ -1,0 +1,6 @@
+apps:
+  - script: node_modules/micro/bin/micro.js
+    instances: 2
+    exec_mode: cluster
+    args: "index.js -p 5000"
+    name: "5000"
